@@ -1,0 +1,4 @@
+# !eol directive forces the eol attribute to be treated as unset
+# regardless of the user's git config [--global] setting 
+# so that, by default, we end up with the canonical repository line ending.
+* text=auto eol
